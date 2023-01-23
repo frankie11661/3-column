@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+body{
+    background: url(/images/favicon-32x32.png);
+    background-repeat: no-repeat;
+}
+.wrapper{
+    display: flex;
+    background: white;
+    width: 960px;
+    height: 500px;
+    margin: 50px auto;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+.sedans-img{
+   margin-top: 20px;
+   margin-left: 50px;
+}
+aside{
+    width: 60%;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    margin-left: 50px;
+}
+.sedans{
+    background: hsl(31, 77%, 52%); 
+}
+.sedans-content{
+    justify-content: center;
+}
+.sedans-header{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    
+}
+
+.suvs{
+    background: hsl(184, 100%, 22%); 
+}
+.suvs-img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.luxury{
+    background: hsl(179, 100%, 13%);   
+}
+.luxury-img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.font{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+}
+.btn{
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 20px;
+    color: hsl(31, 77%, 52%);
+    background: white;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background:  hsl(31, 77%, 52%);
+    color: #fff;
+}
+.color-1{
+    color: hsl(184, 100%, 22%);;
+}
+.btn.color-1:hover{
+    background: hsl(184, 100%, 22%);;
+    color: #fff;
+}
+.color-2{
+    color: hsl(179, 100%, 13%);
+}
+.btn.color-2:hover{
+   background:  hsl(179, 100%, 13%);
+   color: #fff;
+}
+.attribution { font-size: 11px; text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); 
+ }
+@media  screen and (max-width:720px) {
+    .wrapper{
+        width: 60%;
+        flex-wrap: wrap;
+        position: relative;
+        
+       
+    }
+}
